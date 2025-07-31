@@ -105,15 +105,19 @@ def resize_replace_and_backup(
 TARGET_FOLDER = "original_pngs"
 BACKUP_FOLDER = "used_pngs"
 
-# --- 実行 ---
-resize_replace_and_backup(TARGET_FOLDER, BACKUP_FOLDER, TARGET_WIDTH, TARGET_HEIGHT)
-
-
 
 
 
 TARGET_WIDTH = 1290
 TARGET_HEIGHT = 2796
+
+
+
+# --- 実行 ---
+resize_replace_and_backup(TARGET_FOLDER, BACKUP_FOLDER, TARGET_WIDTH, TARGET_HEIGHT)
+
+
+
 ''' iPhone
 TARGET_WIDTH = 1290
 TARGET_HEIGHT = 2796
